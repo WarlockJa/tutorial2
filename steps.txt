@@ -1,0 +1,37 @@
+    install
+    We are using default template (https://docs.expo.dev/tutorial/create-your-first-app/#benefits-of-using-the-default-template)
+npx create-expo-app .
+
+    TypeScript
+    in order to fix error importing image creating file ./index.d.ts and adding line
+declare module "*.png";
+
+    Adding splash image
+    in app.json adding "splash" entry
+
+    Stacks(route navigation)
+    defined in layout. can be given props.
+
+    Link and Pressable
+    can be used for navigation
+
+    +not-found
+    show page when we request page that does not exist
+
+    Groups defined in (<group_name>)
+    <Slot /> === children in React
+
+    (tabs) - special group. defines tabs for the app
+    <Tabs> - can be passed various configuration props
+
+    Colors constants can be changed
+
+    Icons can be found at https://icons.expo.fyi which can be found when inspecting IconSymbol component
+
+    Appearance
+    used to determine user preference for theme
+
+    List Views (https://reactnative.dev/docs/using-a-listview)
+
+    SafeAreaView (https://reactnative.dev/docs/safeareaview)
+    defines safe area of the device taking into account various built-in controls of the mobile device as well as the physical limitations
